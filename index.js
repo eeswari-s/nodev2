@@ -2,6 +2,7 @@ import express from "express";
 import  router  from "./Routers/employee.router.js";
 import router2 from "./Routers/user.router.js";
 import router3 from "./Routers/product.router.js";
+import router4 from "./Routers/product2.router.js";
 
 const app = express();
 const port = 4000;
@@ -9,6 +10,7 @@ const port = 4000;
 app.use("/api", router);
 app.use("/api", router2);
 app.use("/api", router3);
+app.use("/api", router4);
 
 
 app.get('/', (req, res) => {
