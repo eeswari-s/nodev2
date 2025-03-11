@@ -3,7 +3,7 @@ import { getEmployees } from '../Controllers/employee.controller.js';
 
 const router = express.Router();
 
-router.get('/example', (req, res) => {
+router.get('/examp', (req, res) => {
     res.status(200).send('Hello World!');
 })
 
